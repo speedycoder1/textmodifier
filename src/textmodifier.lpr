@@ -1,4 +1,4 @@
-program project1;
+program textmodifier;
 
 {$mode objfpc}{$H+}
 

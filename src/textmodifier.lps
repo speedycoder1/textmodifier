@@ -5,7 +5,7 @@
     <BuildModes Active="Default"/>
     <Units>
       <Unit>
-        <Filename Value="project1.lpr"/>
+        <Filename Value="textmodifier.lpr"/>
         <IsPartOfProject Value="True"/>
         <EditorIndex Value="-1"/>
         <WindowIndex Value="-1"/>
@@ -20,13 +20,18 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <IsVisibleTab Value="True"/>
-        <CursorPos X="61" Y="10"/>
+        <CursorPos X="38" Y="7"/>
         <UsageCount Value="20"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit>
     </Units>
-    <JumpHistory HistoryIndex="-1"/>
+    <JumpHistory>
+      <Position>
+        <Filename Value="main.pas"/>
+        <Caret Line="10" Column="55"/>
+      </Position>
+    </JumpHistory>
     <RunParams>
       <FormatVersion Value="2"/>
       <Modes ActiveMode=""/>
