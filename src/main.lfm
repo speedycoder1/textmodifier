@@ -1,11 +1,11 @@
 object Form1: TForm1
   Left = 309
-  Height = 516
+  Height = 506
   Top = 250
-  Width = 734
-  Caption = 'Form1'
-  ClientHeight = 516
-  ClientWidth = 734
+  Width = 640
+  Caption = 'Textmodifier'
+  ClientHeight = 506
+  ClientWidth = 640
   LCLVersion = '4.4.0.0'
   object Memo1: TMemo
     Left = 15
@@ -20,9 +20,10 @@ object Form1: TForm1
   object Button1: TButton
     Left = 16
     Height = 25
-    Top = 464
-    Width = 75
-    Caption = 'Button1'
+    Top = 448
+    Width = 120
+    Caption = 'RandomCase'
     TabOrder = 1
+    OnClick = Button1Click
   end
 end
