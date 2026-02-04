@@ -1,6 +1,6 @@
 # Textmodifier
 
-Texmodifier is a very simple tool made in pascal to modify a text based on standard function. Purpose of app is demonstation.
+Texmodifier is a very simple tool made in pascal to modify a text based on standard function. Purpose of app is demonstation. 
 
 ## Description
 
@@ -8,6 +8,21 @@ Paste a text and select all or part of the text to apply functions on the text t
 
 MainMenu::RandomCase
 give the letters in the selection a random case e.g. upper or lower case.
+
+MainMenu::Hack
+Hack style output .. e.g. hello h311o
+
+MainMenu::Novowel
+Removes the vowels
+
+MainMenu::Rip
+rips letters that is adding space between letters
+
+MainMenu:Underscore
+space to underscore
+
+MainMenu:NoDoubleSpace
+NoDoubleSpace removes double spaces
 
 
 ## Getting Started
