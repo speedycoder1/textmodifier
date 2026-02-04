@@ -1,0 +1,3 @@
+[submodule "src/fpollama"]
+	path = src/fpollama
+	url = https://github.com/speedycoder1/fpollama
