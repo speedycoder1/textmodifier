@@ -37,10 +37,25 @@ object Form1: TForm1
         OnClick = MenuItem4Click
       end
       object MenuItem5: TMenuItem
-        Caption = 'MenuItem5'
+        Caption = 'Rip'
+        OnClick = MenuItem5Click
       end
       object MenuItem6: TMenuItem
-        Caption = 'MenuItem6'
+        Caption = 'Underscore'
+        OnClick = MenuItem6Click
+      end
+      object MenuItem7: TMenuItem
+        Caption = 'NoDoubleSpace'
+        OnClick = MenuItem7Click
+      end
+      object MenuItem8: TMenuItem
+        Caption = 'MenuItem8'
+      end
+      object MenuItem9: TMenuItem
+        Caption = 'MenuItem9'
+      end
+      object MenuItem10: TMenuItem
+        Caption = 'MenuItem10'
       end
     end
   end

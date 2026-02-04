@@ -11,6 +11,7 @@ uses
 function RandomCase(s:string): string;
 function Hack(s:string): string;
 function Novowel(s:string): string;
+function Rip(s:string): string;
 
 
 implementation
@@ -74,5 +75,21 @@ begin
   exit(buf);
 end;
 
+function Rip(s:string): string;
+var
+ch , chout:char;
+buf: String;
+begin
+  if s='' then exit('');
+  buf:='';
+  for ch in s do
+   begin
+    if ch in [''''] then buf:=buf+ch else buf:=buf+ch+' ';
+   end;
+  exit(buf);
+end;
+
 end.
+
+
 
