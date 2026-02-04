@@ -25,6 +25,8 @@ type
     MenuItem5: TMenuItem;
     MenuItem6: TMenuItem;
     procedure MenuItem2Click(Sender: TObject);
+    procedure MenuItem3Click(Sender: TObject);
+    procedure MenuItem4Click(Sender: TObject);
 
   private
 
@@ -45,10 +47,25 @@ implementation
 
 procedure TForm1.MenuItem2Click(Sender: TObject);
 begin
+  if memo1.SelText='' then memo1.SelectAll;
   memo1.SelText:=RandomCase(memo1.SelText);
 end;
+
+procedure TForm1.MenuItem3Click(Sender: TObject);
+begin
+  if memo1.SelText='' then memo1.SelectAll;
+  memo1.SelText:=Hack(memo1.SelText);
+end;
+
+procedure TForm1.MenuItem4Click(Sender: TObject);
+begin
+  if memo1.SelText='' then memo1.SelectAll;
+  memo1.SelText:=Novowel(memo1.SelText);
+end;
+
+
 
 end.
 
 
-git commit -m 'Added mainmenu'
+git commit -m 'Added hack and novowel'  // time 15min
