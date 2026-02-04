@@ -1,29 +1,45 @@
 object Form1: TForm1
-  Left = 309
+  Left = 379
   Height = 506
-  Top = 250
+  Top = 277
   Width = 640
   Caption = 'Textmodifier'
   ClientHeight = 506
   ClientWidth = 640
+  Menu = MainMenu1
   LCLVersion = '4.4.0.0'
   object Memo1: TMemo
-    Left = 15
-    Height = 429
-    Top = 11
-    Width = 609
+    Left = 0
+    Height = 506
+    Top = 0
+    Width = 640
+    Align = alClient
     Lines.Strings = (
-      'Memo1'
+      ''
     )
     TabOrder = 0
   end
-  object Button1: TButton
-    Left = 16
-    Height = 25
-    Top = 448
-    Width = 120
-    Caption = 'RandomCase'
-    TabOrder = 1
-    OnClick = Button1Click
+  object MainMenu1: TMainMenu
+    Left = 57
+    Top = 21
+    object MenuItem1: TMenuItem
+      Caption = 'Modifications'
+      object MenuItem2: TMenuItem
+        Caption = 'Randomcase'
+        OnClick = MenuItem2Click
+      end
+      object MenuItem3: TMenuItem
+        Caption = 'MenuItem3'
+      end
+      object MenuItem4: TMenuItem
+        Caption = 'MenuItem4'
+      end
+      object MenuItem5: TMenuItem
+        Caption = 'MenuItem5'
+      end
+      object MenuItem6: TMenuItem
+        Caption = 'MenuItem6'
+      end
+    end
   end
 end

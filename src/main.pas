@@ -5,16 +5,24 @@ unit main;
 interface
 
 uses
-  Classes, SysUtils, Forms, Controls, Graphics, Dialogs, StdCtrls;
+  Classes, SysUtils, Forms, Controls, Graphics, Dialogs, StdCtrls, Menus,
+  modlib;
 
 type
 
   { TForm1 }
 
   TForm1 = class(TForm)
-    Button1: TButton;
+    MainMenu1: TMainMenu;
     Memo1: TMemo;
-    procedure Button1Click(Sender: TObject);
+    MenuItem1: TMenuItem;
+    MenuItem2: TMenuItem;
+    MenuItem3: TMenuItem;
+    MenuItem4: TMenuItem;
+    MenuItem5: TMenuItem;
+    MenuItem6: TMenuItem;
+    procedure MenuItem2Click(Sender: TObject);
+
   private
 
   public
@@ -30,21 +38,14 @@ implementation
 
 { TForm1 }
 
-procedure TForm1.Button1Click(Sender: TObject);
-var
-  s: TCaption;
-  ch , chout:char;
-  buf: String;
+
+
+procedure TForm1.MenuItem2Click(Sender: TObject);
 begin
-  buf:='';
-  s:=memo1.text;
-  for ch in s do
-   begin
-     if random(100)<50 then chout:=lowercase(ch) else chout:=upcase(ch);
-     buf:=buf+chout;
-   end;
-  memo1.texT:=buf;
+  memo1.SelText:=RandomCase(memo1.SelText);
 end;
 
 end.
 
+
+git commit -m 'Added mainmenu'
