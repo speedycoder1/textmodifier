@@ -1,5 +1,8 @@
 unit main;
 
+// Textmodifier is a demo project
+//
+
 {$mode objfpc}{$H+}
 
 interface
