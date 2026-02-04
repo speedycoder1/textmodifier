@@ -10,7 +10,7 @@ uses
   athreads,
   {$ENDIF}
   Interfaces, // this includes the LCL widgetset
-  Forms, main, modlib
+  Forms, main, modlib, inputparametersform
   { you can add units after this };
 
 {$R *.res}
@@ -23,6 +23,7 @@ begin
   {$POP}
   Application.Initialize;
   Application.CreateForm(TForm1, Form1);
+  Application.CreateForm(Tipar_form, ipar_form);
   Application.Run;
 end.
 

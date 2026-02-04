@@ -49,13 +49,33 @@ object Form1: TForm1
         OnClick = MenuItem7Click
       end
       object MenuItem8: TMenuItem
-        Caption = 'MenuItem8'
+        Caption = 'CountWordLength'
+        OnClick = MenuItem8Click
       end
       object MenuItem9: TMenuItem
-        Caption = 'MenuItem9'
+        Caption = 'Embrace'
+        OnClick = MenuItem9Click
       end
       object MenuItem10: TMenuItem
-        Caption = 'MenuItem10'
+        Caption = 'reversetext'
+        OnClick = MenuItem10Click
+      end
+      object MenuItem11: TMenuItem
+        Caption = 'ReplaceText'
+        OnClick = MenuItem11Click
+      end
+      object MenuItem12: TMenuItem
+        Caption = 'RepeatText'
+        OnClick = MenuItem12Click
+      end
+      object MenuItem13: TMenuItem
+        Caption = 'MenuItem13'
+      end
+      object MenuItem14: TMenuItem
+        Caption = 'MenuItem14'
+      end
+      object MenuItem15: TMenuItem
+        Caption = 'MenuItem15'
       end
     end
   end

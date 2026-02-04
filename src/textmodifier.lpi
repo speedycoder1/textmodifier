@@ -44,6 +44,12 @@
         <Filename Value="modlib.pas"/>
         <IsPartOfProject Value="True"/>
       </Unit>
+      <Unit>
+        <Filename Value="inputparametersform.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="ipar_form"/>
+        <ResourceBaseClass Value="Form"/>
+      </Unit>
     </Units>
   </ProjectOptions>
   <CompilerOptions>

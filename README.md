@@ -24,6 +24,18 @@ space to underscore
 MainMenu:NoDoubleSpace
 NoDoubleSpace removes double spaces
 
+MainMenu:countwordlength
+countwordlength replaces words with length of words.
+
+MainMenu:reverse
+reverse reverses text
+
+MainMenu:replacetext
+replacetext , using parameters
+
+MainMenu:repeattext
+repeattext , repeats text n times
+
 
 ## Getting Started
 
